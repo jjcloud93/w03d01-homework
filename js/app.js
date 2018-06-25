@@ -1,0 +1,40 @@
+
+class tomagotchi {
+	constructor() {
+		
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
