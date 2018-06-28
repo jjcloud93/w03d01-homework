@@ -1,23 +1,198 @@
-body {
-	background-color: grey;
+/*body {
+	background-image: url("http://www.supercutekawaii.com/wp-content/uploads/tamagotchi-mix-sanrio-3.jpg");
+	background-size: cover;
+	background-position: center;
+}
+h1{
+	text-align: center;
+	font: comic-sans-MS;
 }
 .game{
 	background-color: purple;
-}
-.screen p{
+	border: 5px solid black;
+	border-radius: 45%;
+	width:500px;
+	height:700px;
 	display: block;
-	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+#image{
+	height: 270px;
+	width:  270px;
 }
 img{
 	border: 10px solid black;
-	border-radius: 30%;
+	border-radius: 45%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.namescreen{
+	margin: 10px 10px 0px 10px;
+	text-align: center;
+	font-weight: bold;
+	border: 5px solid black;
+	border-radius: 15%;
+	background-color: #c0c5ce;
+	height: 18px;
+}
+.score{
+	text-align: center;
+}
+.score p{
+	display: inline-block;
+	margin: 10px 5px 0px 5px;
+	text-align: center;
+	font-weight: bold;
+	border: 5px solid black;
+	border-radius: 15%;
+	background-color: #c0c5ce;
+	height: 18px;
+	width: 89px;
+}
+.nameinput{
+	text-align: center;
+	margin: 45px 0px 0px 0px;
+}
+.buttonholder{
+	background-color: #4B0082;
+	height: 120px;
+	width: 370px;
+	border: 2px solid black;
+	border-radius: 40%;
+    margin: 85px 0px 0px 0px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.buttons{
+text-align: center;
+vertical-align:bottom;
+}
+.buttons button{
+	margin: 50px 20px 0px 20px;
+	background-color: yellow;
+	border-radius: 40%;
+	height: 25px;
+	width: 55px;
+	font-weight: bold;
+}*/
+
+
+
+
+body {
+	background-image: url("http://www.supercutekawaii.com/wp-content/uploads/tamagotchi-mix-sanrio-3.jpg");
+	background-size: cover;
+	background-position: center;
+}
+h1{
+	text-align: center;
+	font-family: azz LET, fantasy;
+	margin: 5px 0px 75px 0px;
+}
+#instructions{
+	text-align: center;
+}
+.nameinput{
+	text-align: center;
+	margin: 0px 0px 20px 0px;
+	font-family: azz LET, fantasy;
+}
+.game{
+	background-color: purple;
+	border: 5px solid black;
+	border-radius: 45%;
+	width:715px;
+	height:800px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+#logo{
+	text-align: center;
+	color: white;
+	font-family: Chalkduster, fantasy;
+	margin: 90px 0px 0px 0px;
+
+}
+#image{
+	height: 270px;
+	width:  270px;
+}
+.screen{
+	background-color: #c0c5ce;
+	border: 3px solid black;
+	border-radius: 3%;
+	margin: 51px 0px 0px 0px;
+	width: 500px;
+	height: 400px;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 
 }
+.namescreen{
+	margin: 0px 10px 45px 10px;
+	text-align: center;
+	font-weight: bold;
+	/*border: 2px solid black;*/
+	/*border-radius: 15%;*/
+	background-color: #c0c5ce;
+	height: 18px;
+}
+img{
+	margin: 0px 0px 28px 0px;
+	/*border: 2px solid black;*/
+	/*border-radius: 45%;*/
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.score{
+	text-align: center;
+}
+.score p{
+	display: inline-block;
+	margin: 312px 14px 0px 14px;
+	text-align: center;
+	font-weight: bold;
+	/*border: 2px solid black;*/
+	/*border-radius: 15%;*/
+	background-color: #c0c5ce;
+	height: 18px;
+	width: 89px;
+}
+.buttonholder{
+	background-color: #3CB371;
+	height: 175px;
+	width: 440px;
+	border: 2px solid black;
+	border-radius: 100%;
+    margin: 41px 0px 0px 0px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
 .buttons{
 text-align: center;
+vertical-align:bottom;
+margin: 0px 0px 5px 0px;
+}
+.buttons button{
+	margin: 50px 40px 0px 40px;
+	background-color: #A9A9A9;
+	border: 1px solid black;
+	border-radius: 100%;
+	height: 30px;
+	width: 30px;
+	font-weight: bold;
+}
+.buttonName{
+	margin: 5px 41px 0px 41px;
+	text-align:center;
+	display: inline;
+	font-family: Marker Felt, fantasy;
 }
 
 
@@ -28,4 +203,14 @@ text-align: center;
 
 
 
-<img class="irc_mi" src="https://i-cdn.phonearena.com/images/article/95038-image/5-of-the-best-virtual-pet-apps-that-will-scratch-that-Tamagotchi-itch.jpg"  
+
+
+
+
+
+
+
+
+
+
+
