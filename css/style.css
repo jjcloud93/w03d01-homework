@@ -136,13 +136,11 @@ h1{
 	margin: 0px 10px 45px 10px;
 	text-align: center;
 	font-weight: bold;
-	/*border: 2px solid black;*/
-	/*border-radius: 15%;*/
 	background-color: #c0c5ce;
 	height: 18px;
 }
 img{
-	margin: 0px 0px 28px 0px;
+	margin: 20px 0px 28px 0px;
 	/*border: 2px solid black;*/
 	/*border-radius: 45%;*/
 	display: block;
@@ -157,9 +155,7 @@ img{
 	margin: 312px 14px 0px 14px;
 	text-align: center;
 	font-weight: bold;
-	/*border: 2px solid black;*/
-	/*border-radius: 15%;*/
-	background-color: #c0c5ce;
+	/*background-color: #c0c5ce;*/
 	height: 18px;
 	width: 89px;
 }

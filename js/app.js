@@ -39,8 +39,10 @@ $('form').on('submit', (e) => {
   // Were trying to get the name of our new enemy class
   // .val retrievs the text from the input
   const newPet = $('#input').val();
+  $('#image').attr('src', "https://lh3.googleusercontent.com/Vy-k9VqbdZkpGqsZuX58FMkVj90jMggSsBjSwDeXmFpOebbJ8iVYeqwbGtGRV0bFag");
   $('.namescreen').text('Hello, my name is "' + newPet + '"'); 
-  $('.namescreen').attr('style', 'border-bottom: 1px solid black');
+  $('.namescreen').attr('style', 'border-bottom: 3px solid black');
+  $(".screen").css("background-image", "url('https://thegameassetsmine.com/wp-content/uploads/2016/04/back-pixel-art-bg.jpg')");
 
 ///////////////////////////////////////////////////////////////////////
 
@@ -82,7 +84,7 @@ const hungerTime = () => {
     	location.reload(true);
     }
 };
-const hungerSetTime = setInterval(hungerTime, 4000);
+const hungerSetTime = setInterval(hungerTime, 3000);
 
 ///////////////////////////////////////////////////////////////////////
 
@@ -98,7 +100,7 @@ const sleepTime = () => {
     	location.reload(true);
     }
 };
-const sleepSetTime = setInterval(sleepTime, 8000);
+const sleepSetTime = setInterval(sleepTime, 4000);
 
 ///////////////////////////////////////////////////////////////////////
 
@@ -119,9 +121,9 @@ const boredomSetTime = setInterval(boredomTime, 2000);
 ///////////////////////////////////////////////////////////////////////
 
 const ageTime = () => {
+$('#image').attr('src', "https://lh3.googleusercontent.com/Vy-k9VqbdZkpGqsZuX58FMkVj90jMggSsBjSwDeXmFpOebbJ8iVYeqwbGtGRV0bFag");
 cthulu.age++
 $('#age').text(`Age: ${cthulu.age}`);
-$('#image').attr('src', "https://lh3.googleusercontent.com/Vy-k9VqbdZkpGqsZuX58FMkVj90jMggSsBjSwDeXmFpOebbJ8iVYeqwbGtGRV0bFag");
 	if(cthulu.age > 10){
     	$('#image').attr('src', "https://png2.kisspng.com/sh/3e5e75faeb72fca41d7e46cad6a279da/L0KzQYm3VMExN6lrj5H0aYP2gLBuTfN1cKZxgOc2bYn3eLF6TgVvcadqiuV4LXzyhrbqkvFnfJpmhtG2Y3zsgH7okwQua6Vtjd5xdT24cbTqhfZkQGZnTtYEOT60QoG9VMY6OGI6SqU8OEC0Rom6V8Q2NqFzf3==/kisspng-cthulhu-mythos-universo-lovecraftiano-clip-art-cthulhu-5accefc85b6d99.1206469015233801683745.png");
     }
